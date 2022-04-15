@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class
+namespace Interface1.Models
 {
-    class Program
+    public enum Environment
     {
-        static void Main(string[] args)
-        {
-
-        }
+        Land = 1,
+        Air = 2,
+        Water = 4,
+        Space = 8,
     }
 }
